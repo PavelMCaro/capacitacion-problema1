@@ -1,9 +1,7 @@
-FROM node:10.10.0-slim
+FROM nginx:alpine
 
-WORKDIR /app
+WOKDIR /app
 
 COPY ./preguntas.md ./
+COPY ./intro.md ./
 
-RUN ls
-
-RUN cat preguntas.md
