@@ -2,6 +2,6 @@ version: "2.0"
 services:
    nginx:
      container_name: nginx
-     image: nginx:alpine
+     image: cesar2017/orbis-training-docker:2.0.0
      ports:
        - "1080:80"

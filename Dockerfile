@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-WOKDIR /app
+WORKDIR /app
 
 COPY ./preguntas.md ./
 COPY ./intro.md ./
