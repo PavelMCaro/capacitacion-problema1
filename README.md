@@ -21,7 +21,7 @@
 1. Se ejectó el comando **docker run -p 1080:80 cesar2017/orbis-training-docker:1.0.0**
 
 
-### 
+### Agregar docker-compose para la construcción y ejecución de la imagen
 
 1. Se creó el archivo **docker-compose.yml** y se modificó su contenido:
 
