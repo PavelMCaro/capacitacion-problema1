@@ -43,3 +43,7 @@ services:
 
  - **docker run -v $PWD/app:/app  -p "3030:3030" cesar2017/orbis-training-docker:3.0.0 npm start**
  - **docker run -v $PWD/app:/app  -p "35729:35729" cesar2017/orbis-training-docker:3.0.0 npm start**
+
+ 3. Se anignó el puerto **1042**
+
+ 4. Se utilizó el comando **docker run -v $PWD/app:/app cesar2017/orbis-training-docker:3.0.0 npm run release**

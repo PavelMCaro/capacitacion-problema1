@@ -1,7 +1,11 @@
 version: "2.0"
 services:
    nginx:
-     container_name: nginx
-     image: cesar2017/orbis-training-docker:2.0.0
+     container_name: dockerTaller2
+     build: .
      ports:
-       - "1080:80"
+       - "3030:3030"
+       - "35729:35729"
+     volumes:
+       - ./app:/app
+    
