@@ -41,9 +41,15 @@ services:
 
 2. Se utilizaron los comandos:
 
- - **docker run -v $PWD/app:/app  -p "3030:3030" cesar2017/orbis-training-docker:3.0.0 npm start**
+ - ** **
  - **docker run -v $PWD/app:/app  -p "35729:35729" cesar2017/orbis-training-docker:3.0.0 npm start**
 
  3. Se anignó el puerto **1042**
 
  4. Se utilizó el comando **docker run -v $PWD/app:/app cesar2017/orbis-training-docker:3.0.0 npm run release**
+
+ 5. Para ejecutar un script en bash se utilizo el comando **docker run -v $PWD/app:/app --entrypoint=/bin/bash orbistrainingproject_node resources/example.sh**
+
+6. Para enviarle parametros a un archivo se usa el siguiente cmando: **docker run -v $PWD/app:/app --entrypoint=/bin/bash -e "nombre=Harry Potter" orbistrainingproject_node resources/example.sh** y se recibe mediante $nombre
+
+7. Se envio parametros **docker run -v $PWD/app:/app --entrypoint=/bin/bash -e "nombre=Ejecutando Contenedor..." orbistrainingproject_node resources/example.sh**
