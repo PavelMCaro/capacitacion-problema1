@@ -34,3 +34,12 @@ services:
        - "1080:80"
 
 2. Se ejecutó el comando **docker-compose -d -f ./docker-compose.yml up**
+
+# DOCKER
+
+1. Se utilizó el comando **docker run -v $PWD/app:/app  cesar2017/orbis-training-docker:3.0.0 npm install**
+
+2. Se utilizaron los comandos:
+
+ - **docker run -v $PWD/app:/app  -p "3030:3030" cesar2017/orbis-training-docker:3.0.0 npm start**
+ - **docker run -v $PWD/app:/app  -p "35729:35729" cesar2017/orbis-training-docker:3.0.0 npm start**
