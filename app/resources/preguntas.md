@@ -76,3 +76,11 @@ Modificando el archivo **Dockerfile**, y añadiendo el comando **EXPOSE**
 Con el comando **-p "(puerto_local):(puerto_contenedor)"**
 ### 4. ¿Cómo hago 'forward' al levantar un contenedor (docker run)?
 Con el comando **docker run -d -p "(puerto_local):(puerto_contenedor)" (nombre_imagen):(tag)**
+
+# Ejercicio Linux, Makefile, Jenkins
+
+## PARTE 10
+
+### Paso 7
+
+1. ¿Qué significa el comando **-d**?
